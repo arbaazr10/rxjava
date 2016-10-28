@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         }
         else{
             Toast.makeText(MainActivity.this, "No Sim 2", Toast.LENGTH_SHORT).show();
-            textView2.setText("No Sim 2");
+            textView2.setText("No Sim 2 found" );
         }
 
         textView.setText(IccId0+"");
